@@ -12,7 +12,7 @@ def test_case_0(): # FAILED - AttributeError: 'Solution' object has no attribute
     solution_0.invertTree(solution_0)
 
 
-# @pytest.mark.xfail(strict=True)
+# @pytest.mark.xfail(strict=True) 
 def test_case_1(): # FAILED - TypeError: test.Solution() argument after * must be an iterable, not TreeNode
     tree_node_0 = module_0.TreeNode()
     assert tree_node_0.val == 0
