@@ -1,0 +1,56 @@
+    P1
+		tests/test_P1.py::test_case_0 XFAIL    
+			Made to Fail
+		tests/test_P1.py::test_case_1 PASSED
+		tests/test_P1.py::test_case_2 XFAIL    
+			Made to Fail
+		tests/test_P1.py::test_case_3 XFAIL 
+			Made to Fail
+		tests/test_P1.py::test_case_4 XFAIL
+			Made to Fail
+		tests/test_P1.py::test_case_5 XFAIL       
+			Made to Fail
+			
+	P2
+		tests/test_P2.py::test_case_0 XFAIL  
+			Made to Fail 
+		tests/test_P2.py::test_case_2 XFAIL 
+		tests/test_P2.py::test_case_1 PASSED 
+			Made to Fail
+		tests/test_P2.py::test_case_3 PASSED  
+		tests/test_P2.py::test_case_4 PASSED
+		tests/test_P2.py::test_case_5 XFAIL  
+			Made to Fail
+
+	P3
+		tests/test_P3.py::test_case_0 XFAIL 
+			Made to Fail
+		tests/test_P3.py::test_case_1 PASSED 
+		tests/test_P3.py::test_case_2 XFAIL
+			Made to Fail
+		tests/test_P3.py::test_case_3 XFAIL 
+			Made to Fail
+		tests/test_P3.py::test_case_4 XFAIL 
+			Made to Fail
+
+	P4
+		tests/test_P4.py::test_case_0 PASSED  
+		tests/test_P4.py::test_case_1 PASSED  
+		tests/test_P4.py::test_case_2 PASSED  
+		tests/test_P4.py::test_case_3 XFAIL  
+			Made to Fail
+		tests/test_P4.py::test_case_4 XFAIL 
+			Made to Fail
+
+	P5
+		tests/test_P5.py::test_case_0 PASSED 
+		tests/test_P5.py::test_case_1 XFAIL
+			Made to Fail
+		tests/test_P5.py::test_case_2 XFAIL 
+			Made to Fail
+
+	P6
+		tests/test_P6.py::test_case_0 PASSED 
+		tests/test_P6.py::test_case_1 PASSED 
+		tests/test_P6.py::test_case_2 PASSED 
+		tests/test_P6.py::test_case_3 PASSED 
