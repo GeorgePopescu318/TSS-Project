@@ -1,0 +1,51 @@
+    P1
+		tests/test_C2P1.py::test_case_0 XFAIL
+			Made to Fail
+		tests/test_C2P1.py::test_case_1 XFAIL
+			Made to Fail
+	
+	P2
+		tests/test_C2P2.py::test_case_0 PASSED 
+		tests/test_C2P1.py::test_case_2 XFAIL
+			Made to Fail
+		tests/test_C2P1.py::test_case_3 XFAIL
+			Made to Fail
+	
+	P3
+		tests/test_C2P3.py::test_case_0 XFAIL 
+			Made to Fail
+		tests/test_C2P3.py::test_case_1 XFAIL 
+			Made to Fail
+		tests/test_C2P3.py::test_case_2 XFAIL 
+			Made to Fail
+	
+	P4
+		tests/test_C2P4.py::test_case_0 XFAIL
+			Made to Fail
+		tests/test_C2P4.py::test_case_1 PASSED
+	
+	P5
+		______________________________________
+	
+	P6
+		tests/test_C2P6.py::test_case_0 PASSED 
+		tests/test_C2P4.py::test_case_1 XFAIL
+			Made to Fail
+		tests/test_C2P4.py::test_case_2 XFAIL
+			Made to Fail
+			
+	P7
+		______________________________________
+	
+	P8
+		______________________________________
+		
+	P9
+		tests/test_C2P9.py::test_case_0 XFAIL
+			Made to Fail
+		tests/test_C2P9.py::test_case_1 XFAIL
+			Made to Fail
+		tests/test_C2P9.py::test_case_2 PASSED
+		tests/test_C2P9.py::test_case_3 PASSED
+		tests/test_C2P9.py::test_case_4 XFAIL
+			Made to Fail
