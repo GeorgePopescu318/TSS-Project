@@ -62,21 +62,21 @@ def test_invertTree_complete_tree():
     result = convert_to_list(inverted)
     assert result == [1, 3, 2, 7, 6, 5, 4]
 
-def test_invertTree_left_heavy_tree():
+def test_invertTree_left_heavy_tree(): # failure case because of the tree structure and none values
     sol = Solution()
     root = build_tree([1, 2, None, 3, None, None, None])
     inverted = sol.invertTree(root)
     result = convert_to_list(inverted)
     assert result == [1, None, 2, None, None, 3]
 
-def test_invertTree_right_heavy_tree():
+def test_invertTree_right_heavy_tree(): # failure case because of the tree structure and none values
     sol = Solution()
     root = build_tree([1, None, 2, None, None, None, 3])
     inverted = sol.invertTree(root)
     result = convert_to_list(inverted)
     assert result == [1, 2, None, 3, None]
 
-def test_invertTree_asymmetric_tree():
+def test_invertTree_asymmetric_tree(): # failure case because of the tree structure and none values
     sol = Solution()
     root = build_tree([1, 2, 3, None, 4, None, 5])
     inverted = sol.invertTree(root)

@@ -62,7 +62,7 @@ def test_diameter_of_binary_tree_complex():
                     TreeNode(3))
     assert solution.diameterOfBinaryTree(root) == 4
 
-def test_diameter_of_binary_tree_large():
+def test_diameter_of_binary_tree_large(): # asert 5 == 6 test failure because the tree is larger and more complex
     solution = Solution()
     # Larger, more complex tree
     #      1

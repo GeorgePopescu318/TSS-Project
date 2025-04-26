@@ -38,7 +38,7 @@ def test_subtree_at_leaf_level():
     solution = Solution()
     assert solution.isSubtree(root, subRoot) == True
 
-def test_empty_subroot():
+def test_empty_subroot(): # asert False == True because subRoot is empty
     root = build_tree_from_list([1])
     subRoot = None
     solution = Solution()
@@ -50,7 +50,7 @@ def test_empty_root():
     solution = Solution()
     assert solution.isSubtree(root, subRoot) == False
 
-def test_both_empty():
+def test_both_empty(): # asert False == True because both trees are empty
     root = None
     subRoot = None
     solution = Solution()

@@ -52,7 +52,7 @@ def test_unbalanced_tree_due_to_right_depth(solution):
     root.right.right = TreeNode(3)
     assert solution.isBalanced(root) == False
 
-def test_balanced_tree_with_varying_depth(solution):
+def test_balanced_tree_with_varying_depth(solution): # assert False == True because the tree is unbalanced
     # Constructing the following balanced tree:
     #      1
     #     / \

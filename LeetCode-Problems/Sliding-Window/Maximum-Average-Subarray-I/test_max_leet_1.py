@@ -8,14 +8,14 @@ def test_find_max_average_positive_numbers():
     expected_result = 12.75
     assert sol.findMaxAverage(nums, k) == pytest.approx(expected_result, 0.0001)
 
-def test_find_max_average_mixed_numbers():
+def test_find_max_average_mixed_numbers(): # assert 3.6666666666666665 == 4.0 ± 4.0e-04
     sol = Solution()
     nums = [5, -10, 4, 9, -2, 3, 1]
     k = 3
     expected_result = 4.0
     assert sol.findMaxAverage(nums, k) == pytest.approx(expected_result, 0.0001)
 
-def test_find_max_average_all_negative():
+def test_find_max_average_all_negative(): # assert -3.0 == -2.5 ± 2.5e-04
     sol = Solution()
     nums = [-3, -7, -9, -4, -2, -6]
     k = 2

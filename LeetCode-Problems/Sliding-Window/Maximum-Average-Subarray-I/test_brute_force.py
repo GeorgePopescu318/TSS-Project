@@ -41,7 +41,7 @@ def test_find_max_average_small_k(solution):
     expected = 5.0
     assert solution.findMaxAverage(nums, k) == expected
 
-def test_find_max_average_edge_case_empty(solution):
+def test_find_max_average_edge_case_empty(solution): # failing to test the test case because of the empty list - intentionally failing to test the test case
     # Although the problem statement likely assumes k <= len(nums), it's safe to check for this
     nums = []
     k = 0
