@@ -4,3 +4,4 @@
 <img src = 'https://github.com/GeorgePopescu318/TSS-Project/blob/main/README/milestone_3_tss_page-0004.jpg'>
 <img src = 'https://github.com/GeorgePopescu318/TSS-Project/blob/main/README/milestone_3_tss_page-0005.jpg'>
 <img src = 'https://github.com/GeorgePopescu318/TSS-Project/blob/main/README/milestone_3_tss_page-0006.jpg'>
+Link Demo pe Youtube: https://www.youtube.com/watch?v=yqlyxR2OKC8
